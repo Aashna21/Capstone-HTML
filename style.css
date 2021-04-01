@@ -1,0 +1,33 @@
+.header {
+    color: #000000;
+    margin-top: 1px;
+
+}
+.book{
+    padding: 40px;
+}
+.book p {
+    opacity: 0;
+    position: absolute;  
+    color: #4f1111;
+    font-weight: bold;
+}
+.book:hover p {
+    opacity: 1; 
+}
+.book:hover {
+    transform: scale(1.1);
+}
+.grid {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    
+}
+body {
+    background-color: #f5e4e4;
+}
+.about {
+    color: #000000;
+    font-weight: bold;
+}
